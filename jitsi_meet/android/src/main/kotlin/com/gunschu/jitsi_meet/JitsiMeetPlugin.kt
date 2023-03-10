@@ -30,7 +30,7 @@ public class JitsiMeetPlugin() : FlutterPlugin, MethodCallHandler, ActivityAware
     private lateinit var eventChannel: EventChannel
 
     private var activity: Activity? = null
-
+    //FlutterFlow fix
     constructor(activity: Activity?) : this() {
         this.activity = activity
     }
